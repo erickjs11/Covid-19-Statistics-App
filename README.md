@@ -22,8 +22,13 @@ Project is created with:
 
 # Set up
 
-Node version: 16.14.2
-App will be running on port 3000
+Node version: 16.14.2.
+
+App will be running on port 3000.
+
 To run this project, install it locally using npm:
-`npm i `
-`npm start`
+
+```
+npm i 
+npm start
+```
