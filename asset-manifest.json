@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Covid-19-Statistics-App/static/css/main.073c9b0a.css",
-    "main.js": "/Covid-19-Statistics-App/static/js/main.9ad363dc.js",
+    "main.js": "/Covid-19-Statistics-App/static/js/main.4ebfe5c0.js",
     "static/js/787.c089f472.chunk.js": "/Covid-19-Statistics-App/static/js/787.c089f472.chunk.js",
     "index.html": "/Covid-19-Statistics-App/index.html",
     "main.073c9b0a.css.map": "/Covid-19-Statistics-App/static/css/main.073c9b0a.css.map",
-    "main.9ad363dc.js.map": "/Covid-19-Statistics-App/static/js/main.9ad363dc.js.map",
+    "main.4ebfe5c0.js.map": "/Covid-19-Statistics-App/static/js/main.4ebfe5c0.js.map",
     "787.c089f472.chunk.js.map": "/Covid-19-Statistics-App/static/js/787.c089f472.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.9ad363dc.js"
+    "static/js/main.4ebfe5c0.js"
   ]
 }
