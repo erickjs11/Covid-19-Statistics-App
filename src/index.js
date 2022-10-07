@@ -7,7 +7,6 @@ import { Provider } from "react-redux";
 import axios from "axios";
 import store from "./Services/redux/store";
 import Chart from "chart.js/auto";
-import { HashRouter } from 'react-router-dom'
 
 // const baseURL = 'https://api.covidtracking.com/v1/states/current.json'
 
@@ -21,9 +20,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.Fragment>
     <Provider store={store}>
-      <HashRouter>
         <App />
-      </HashRouter>
     </Provider>
   </React.Fragment>
 );

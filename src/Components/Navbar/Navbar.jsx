@@ -34,12 +34,12 @@ const Navbar = (props) => {
       }}
     >
       <Box sx={{height: "100vh"}}>
-      <StyledButton component={Link} to="/">
+      <StyledButton component={Link} to="/Covid-19-Statistics-App/">
         <Typography sx={{padding: '41vh  25px 25px 25px',}}  fontWeight="Bold">
           Current
         </Typography>
       </StyledButton>
-      <StyledButton sx={{padding: ' 25px 25px 50vh 25px',}}component={Link} to="/historic">
+      <StyledButton sx={{padding: ' 25px 25px 50vh 25px',}}component={Link} to="/Covid-19-Statistics-App/historic">
         <Typography fontWeight="Bold">
           Historic
         </Typography>

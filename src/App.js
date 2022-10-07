@@ -15,14 +15,14 @@ function App() {
         <Routes> 
           <Route
             exact
-            path="/"
+            path="/Covid-19-Statistics-App/"
             element={
               <Current/>
             }
           />
           <Route
             exact
-            path="/historic"
+            path="/Covid-19-Statistics-App/historic"
             element={
               <Historic/>
             }
