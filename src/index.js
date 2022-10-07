@@ -1,14 +1,28 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { Provider } from "react-redux";
+import axios from "axios";
+import store from "./Services/redux/store";
+import Chart from "chart.js/auto";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// const baseURL = 'https://api.covidtracking.com/v1/states/current.json'
+
+// axios.get(baseURL).then((response) => {
+//   console.log(response.data.map((value)=>{
+//     return value.state
+//   }))
+// });
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <React.Fragment>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </React.Fragment>
 );
 
 // If you want to start measuring performance in your app, pass a function
